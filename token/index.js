@@ -1,3 +1,5 @@
+const jwt = require('jsonwebtoken');
+
 function genToken(user) {
   const payload = {
     subject: 'user',
